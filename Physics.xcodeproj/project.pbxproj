@@ -14,6 +14,9 @@
 		11C630271C1E874600AACF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C630251C1E874600AACF89 /* LaunchScreen.storyboard */; };
 		11C630321C1E874600AACF89 /* PhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C630311C1E874600AACF89 /* PhysicsTests.swift */; };
 		11C6303D1C1E874600AACF89 /* PhysicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6303C1C1E874600AACF89 /* PhysicsUITests.swift */; };
+		11C6304B1C1E8FF600AACF89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6304A1C1E8FF600AACF89 /* MainView.swift */; };
+		11C6304D1C1E90DA00AACF89 /* TimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6304C1C1E90DA00AACF89 /* TimeVC.swift */; };
+		11C6304F1C1E9ADD00AACF89 /* ProjectileMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6304E1C1E9ADD00AACF89 /* ProjectileMotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		11C630381C1E874600AACF89 /* PhysicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C6303C1C1E874600AACF89 /* PhysicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsUITests.swift; sourceTree = "<group>"; };
 		11C6303E1C1E874600AACF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C6304A1C1E8FF600AACF89 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		11C6304C1C1E90DA00AACF89 /* TimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeVC.swift; sourceTree = "<group>"; };
+		11C6304E1C1E9ADD00AACF89 /* ProjectileMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectileMotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				11C6301C1C1E874600AACF89 /* AppDelegate.swift */,
 				11C6301E1C1E874600AACF89 /* ViewController.swift */,
 				11C630201C1E874600AACF89 /* Main.storyboard */,
+				11C6304E1C1E9ADD00AACF89 /* ProjectileMotion.swift */,
+				11C6304C1C1E90DA00AACF89 /* TimeVC.swift */,
+				11C6304A1C1E8FF600AACF89 /* MainView.swift */,
 				11C630231C1E874600AACF89 /* Assets.xcassets */,
 				11C630251C1E874600AACF89 /* LaunchScreen.storyboard */,
 				11C630281C1E874600AACF89 /* Info.plist */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C6301F1C1E874600AACF89 /* ViewController.swift in Sources */,
+				11C6304F1C1E9ADD00AACF89 /* ProjectileMotion.swift in Sources */,
+				11C6304B1C1E8FF600AACF89 /* MainView.swift in Sources */,
 				11C6301D1C1E874600AACF89 /* AppDelegate.swift in Sources */,
+				11C6304D1C1E90DA00AACF89 /* TimeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
