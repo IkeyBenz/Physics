@@ -24,7 +24,7 @@ class ProjectileMotion: UIViewController, UITextFieldDelegate {
     var yo: Double!
     var theda: Double!
     var t: Double!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initialXPos.delegate = self
@@ -58,7 +58,7 @@ class ProjectileMotion: UIViewController, UITextFieldDelegate {
         }
         return true
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -75,23 +75,25 @@ class ProjectileMotion: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func calculatePosition(sender: AnyObject) {
-        let height: Double = yo + ((sin(theda) * vo) * t) - (4.9 * (t * t))
-        let distance: Double = xo + ((cos(theda) * vo) * t)
-        heightLabel.text = "Height: \(height)"
-        distanceLabel.text = "Distance: \(distance)"
+        if xo != nil && yo != nil && vo != nil && t != nil && theda != nil {
+            let height: Double = yo + ((sin(theda) * vo) * t) - (4.9 * (t * t))
+            let distance: Double = xo + ((cos(theda) * vo) * t)
+            heightLabel.text = "Height: \(height)"
+            distanceLabel.text = "Distance: \(distance)"
+        }
     }
     
     
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
 

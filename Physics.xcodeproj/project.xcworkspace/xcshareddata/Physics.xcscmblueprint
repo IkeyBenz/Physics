@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "14CEB898ED6CAE487C8D7716E85F7CAD123B7C31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "65B4F795F22031A50D3BBA306CFA99516E0877B6" : 0,
+    "14CEB898ED6CAE487C8D7716E85F7CAD123B7C31" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2A1A0D1D-3599-4D9F-A12D-1CF002CC2C9A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "65B4F795F22031A50D3BBA306CFA99516E0877B6" : "",
+    "14CEB898ED6CAE487C8D7716E85F7CAD123B7C31" : "Physics\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Physics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Physics.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IkeyBenz\/Physics.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14CEB898ED6CAE487C8D7716E85F7CAD123B7C31"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IkeyBenz\/HighJacked-AttemptThree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65B4F795F22031A50D3BBA306CFA99516E0877B6"
+    }
+  ]
+}
