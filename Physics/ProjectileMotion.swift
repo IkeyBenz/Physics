@@ -10,7 +10,6 @@ import UIKit
 
 class ProjectileMotion: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var positionCalcView: UIView!
-    @IBOutlet weak var timeCalcView: UIView!
     @IBOutlet weak var initialXPos: UITextField!
     @IBOutlet weak var initialYPos: UITextField!
     @IBOutlet weak var initialVel: UITextField!
@@ -62,15 +61,6 @@ class ProjectileMotion: UIViewController, UITextFieldDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func showPositionCalculator(sender: AnyObject) {
-        positionCalcView.hidden = false
-        timeCalcView.hidden = true
-    }
-    @IBAction func showTimeCalculator(sender: AnyObject) {
-        timeCalcView.hidden = false
-        positionCalcView.hidden = true
     }
     
     
