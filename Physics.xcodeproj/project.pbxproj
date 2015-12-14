@@ -202,7 +202,6 @@
 				TargetAttributes = {
 					11C630181C1E874600AACF89 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = JF3D5A9LEE;
 					};
 					11C6302C1C1E874600AACF89 = {
 						CreatedOnToolsVersion = 7.2;
@@ -412,9 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Physics/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Benz.Physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,9 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Physics/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Benz.Physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +496,6 @@
 				11C630431C1E874600AACF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		11C630441C1E874600AACF89 /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
 			isa = XCConfigurationList;
@@ -510,7 +504,6 @@
 				11C630461C1E874600AACF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		11C630471C1E874600AACF89 /* Build configuration list for PBXNativeTarget "PhysicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,7 +512,6 @@
 				11C630491C1E874600AACF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
