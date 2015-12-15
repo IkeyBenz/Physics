@@ -30,16 +30,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         acceleration.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func calculateDistance(sender: AnyObject) {
-        let timeSquared = t * t
-        let finalPos = xo + (vxo * t) + ((ax / 2) * timeSquared)
-        finalPosLabel.text = "Final Position: \(finalPos)"
+        if xo != nil && vxo != nil && t != nil && ax != nil {
+            let timeSquared = t * t
+            let finalPos = xo + (vxo * t) + ((ax / 2) * timeSquared)
+            finalPosLabel.text = "Final Position: \(finalPos)"
+        }
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -61,6 +63,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         return true
     }
-
+    
 }
 
