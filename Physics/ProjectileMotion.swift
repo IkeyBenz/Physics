@@ -120,9 +120,13 @@ class ProjectileMotion: UIViewController, UITextFieldDelegate {
             let maxDistance: Double = (cos(theda) * vo * (2 * timeOfMaxHeight)) + xo
             distanceLabel.text = "Max Distance: \(maxDistance)"
             if time.text == "" {
-                time.text = "Total Time: \(2 * timeOfMaxHeight)"
+                let vyo = sin(theda) * vo
+                let timen = -vyo + sqrt((vyo * yo) - (4 * -4.9 * yo)) / (2 * -4.9)
+                time.text = "Total Time: \(timen)"
             }
         }
+        // 0 = Yo + VyoT - 4.9T^2
+        
         
         
     }
